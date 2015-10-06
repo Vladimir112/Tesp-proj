@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	background: url(../img/background_vawecut);
+}
+
+nav{
+	height: 80px;
+	border-top: 10px solid #fb6938;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo{
+	width: 194px;
+	height: 80px;
+	float: left;
+}
+
+.container ul,p{
+	margin: 0;
+	padding:0;
+}
+
+.container img{
+	height: 25px;
+	padding-top:27.5px;
+}
+
+.container ul{
+	padding-top: 24px;
+	float: right;
+	height: 20px;
+	list-style: none;
+	right: 0;
+}
+
+li{
+	display: inline;
+}
+
+li a{
+	font-weight: bold;
+	height: 20px;
+	font-size: 20px;
+	color:#f56737;
+	font-family: italic;
+	text-decoration: none;
+}
+
+li:after{
+	padding-left:22px;
+	padding-right:22px;
+	font-family: sans-serif;
+	content: '|';
+	color:#e5e5e5;
+	font-weight: bold;
+}
+
+li:last-child:after{
+	content:none;
+}
+
+.container p{
+	padding-top: 34px;
+	font-family: 'Helvetica Neue';
+	float: left;
+	font-size: 14px;
+}
